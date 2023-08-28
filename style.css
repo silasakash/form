@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0%;
+    background-color: whitesmoke;
+}
+
+a:visited,link {
+    color: inherit;
+}
+
+#left {
+    flex-basis: 50%;
+    background-image: url(sources/michael-krahn-eGD69I3ODC4-unsplash.jpg);
+    position: relative;
+    text-align: center;
+}
+
+#logo-section {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    background-color: rgba(5, 5, 5, 0.4);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0px;
+}
+
+#logo-section img {
+    height: 80px;
+    opacity: 100%;
+}
+
+#logo-section h2 {
+    font-size: 70px;
+    margin: 0%;
+    font-family: 'Creepster', cursive;
+}
+
+#image-credit {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    color: white;
+    background-color: rgba(5, 5, 5, 0.4);
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#disclaimer, #form, #sign-in, #submit{
+    padding: 1% 20% 1% 5%;
+}
+
+#disclaimer {
+    font-weight: bold;
+}
+
+#form {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+legend {
+    font-size: 20px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.set {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: small;
+    font-weight: bold;
+}
+
+#display-error {
+    margin: 0%;
+    color: red;
+    font-size: small;
+}
+
+#submit {
+    padding-top: 3%;
+}
+
+#submit input {
+    background-color: rgba(87,109,14,255);
+    color: white;
+    border-radius: 10px;
+    padding: 1% 5%;
+    font-size: 17px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: thin;
+}
+
+#sign-in a {
+    color: rgba(87,109,14,255);
+    text-decoration: none;
+}
+
