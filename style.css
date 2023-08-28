@@ -1,3 +1,23 @@
+@media (max-width: 1000px) {
+    body {
+      flex-direction: column;
+    }
+  
+    #left {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  
+    #logo-section {
+      top: 0%;
+      position: static;
+    }
+  
+    #logo-section h2 {
+      font-size: 40px;
+    }  
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     display: flex;
